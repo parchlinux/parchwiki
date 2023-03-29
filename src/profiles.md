@@ -1,10 +1,19 @@
 # Parch Profiles
-## What are profiles?
-Profiles in the Parch distribution allow the user to install ready-made software packages based on their needs.
-The Available profiles are:
-- Home user profile
-- Educational profile
-- Gaming profile
-- Developer profile
 
-Each of these profiles that the user chooses based on the needs, for example the home user profile, some tools and programs would be installed in the distribution according to the needs of home users.
+## What are profiles?
+
+Profiles in the Parch distribution allow the user to install ready-to-use
+software packages based on their needs.
+
+The Available profiles are:
+
+- Home User Profile
+- Educational Profile
+- Gaming Profile
+- Developer Profile
+
+Users can choose a profile based on their needs.
+
+For example the Home User Profile contains some tools and programs which will
+become handy for home users. (e.g Development files won't installed)
+

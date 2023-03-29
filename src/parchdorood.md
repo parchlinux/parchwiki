@@ -1,3 +1,10 @@
 # Parch Dorood
-parch dorood is a welcome program in the parch distribution, which features some features such as showing Parch Linux pages on social networks, running the installer, and updating repositories.
-This tool is not yet completed and is in the initial versions and may have problems.
+
+Parch dorood (pronounced as in ) which means "Hello" in Persian, is a welcome
+app in the Parch distribution. Dorood features:
+
++ Showing Parch Linux pages on social media
++ Running the installer program
++ Updating Parch repositories
+
+This program is still on alpha stages and it is not completely ready to use.

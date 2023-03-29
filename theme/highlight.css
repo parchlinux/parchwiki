@@ -50,6 +50,12 @@
   color: #0030f2;
 }
 
+/* Bss Foundation */
+.hljs-title,
+.hljs-section {
+  color: #6082B6;
+}
+
 /* Purple */
 .hljs-keyword,
 .hljs-selector-tag {

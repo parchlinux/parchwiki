@@ -1,3 +1,4 @@
 # Summary
 
-- [Get Startes](./Get_Started.md)
+- [Welcome](./welcome.md)
+- [Get Started](./Get_Started.md)

@@ -1,3 +1,7 @@
 # PCM
-PCM (Parch Core Manager) is a cli tool that allows the user to switch between software profiles, kernels, driver management and also management of other tools of Parch Linux distribution.
+
+PCM (Parch Core Manager) is a cli tool that allows the user to switch between
+**software profiles**, **kernels** and **drivers**.
+It can also manage other Parch Linux tools.
+
 You can read about the profiles below.

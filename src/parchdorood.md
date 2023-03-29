@@ -1,7 +1,8 @@
 # Parch Dorood
 
-Parch dorood (pronounced as in ) which means "Hello" in Persian, is a welcome
-app in the Parch distribution. Dorood features:
+Parch dorood (/do-rood/, درود, [pronunciation](https://www.youtube.com/watch?v=SKdVvnzQl8Y))
+which is Persian word for "Greetings", is a welcome app in the Parch distribution.
+Dorood features:
 
 + Showing Parch Linux pages on social media
 + Running the installer program

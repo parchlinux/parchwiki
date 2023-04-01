@@ -292,6 +292,7 @@ function playground_text(playground, hidden = true) {
     var stylesheets = {
         ayuHighlight: document.querySelector("[href$='ayu-highlight.css']"),
         tomorrowNight: document.querySelector("[href$='tomorrow-night.css']"),
+		parch: document.querySelector("[href$='parch.css']"),
         highlight: document.querySelector("[href$='highlight.css']"),
     };
 

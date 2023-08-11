@@ -1,7 +1,0 @@
-# Parch Jade
-
-The online edition aka *jade edition* of Parch Linux comes with Jade
-online installer and a minimal desktop that allows the users to install the
-tools of their choice in Parch Linux, based on their needs.
-
-+ This edition is currently under development and is not complete yet

@@ -8,7 +8,7 @@ import path from 'path';
 export const compileClientSideScripts = (jsTimeStamp) => {
   esbuild
     .build({
-      entryPoints: [path.join(process.cwd(), './src/docs/client-side/js/index.tsx')],
+      entryPoints: [path.join(process.cwd(), 'fa/src/docs/client-side/js/index.tsx')],
       bundle: true,
       sourcemap: 'linked', // external
       minify: true,

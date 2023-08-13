@@ -11,8 +11,8 @@ import { getTimeStamp } from './common-provider.js';
 import { renderSpecialPages } from './render/special-pages-provider.js';
 import { renderSitemap, updateReadmeDocs } from './render/sitemap-provider.js';
 
-export const DATA_FOLDER = path.join(process.cwd(), './fa/src/docs/data');
-export const OUTPUT_FOLDER = path.join(process.cwd(), './docs/fa');
+export const DATA_FOLDER = path.join(process.cwd(), 'fa/src/docs/data');
+export const OUTPUT_FOLDER = path.join(process.cwd(), 'docs/fa');
 
 // markdown -------------------
 const md = initMarkDown();
@@ -20,24 +20,24 @@ md.use(emoji);
 configureMarkdown(md);
 
 const init = async () => {
-  const sourceRootPath = path.join(DATA_FOLDER, './pages');
-  const targetRootPath = path.join(OUTPUT_FOLDER, './pages');
+  const sourceRootPath = path.join(DATA_FOLDER, 'pages');
+  const targetRootPath = path.join(OUTPUT_FOLDER, 'pages');
 
   const cssTimeStamp = getTimeStamp();
   const jsTimeStamp = getTimeStamp();
 
   // empty destination folders
   fse.emptyDirSync(targetRootPath);
-  fse.emptyDirSync(path.join(OUTPUT_FOLDER, './css'));
-  fse.emptyDirSync(path.join(OUTPUT_FOLDER, './js'));
+  fse.emptyDirSync(path.join(OUTPUT_FOLDER, 'css'));
+  fse.emptyDirSync(path.join(OUTPUT_FOLDER, 'js'));
 
   // load layout
-  const layoutPath = path.join(DATA_FOLDER, './layouts/page-layout.html');
+  const layoutPath = path.join(DATA_FOLDER, 'layouts/page-layout.html');
   const layout = fs.readFileSync(layoutPath, 'utf8');
 
   // load config files
-  const mainConfig = loadConfig(path.join(DATA_FOLDER, './config.json'));
-  const pagesConfig = loadConfig(path.join(DATA_FOLDER, './pages/pages-config.json'));
+  const mainConfig = loadConfig(path.join(DATA_FOLDER, 'config.json'));
+  const pagesConfig = loadConfig(path.join(DATA_FOLDER, 'pages/pages-config.json'));
 
   // collect side menu data
   const sideMenuMap = new Map();
@@ -58,11 +58,11 @@ const init = async () => {
   }, md);
 
   // render all pages like index.html
-  const specialPagesLayoutPath = path.join(DATA_FOLDER, './layouts/special-page-layout.html');
+  const specialPagesLayoutPath = path.join(DATA_FOLDER, 'layouts/special-page-layout.html');
   const specialPagesLayout = fs.readFileSync(specialPagesLayoutPath, 'utf8');
 
   renderSpecialPages(
-    path.join(DATA_FOLDER, './special-pages'),
+    path.join(DATA_FOLDER, 'special-pages'),
     path.join(OUTPUT_FOLDER),
     {
       layout: specialPagesLayout,

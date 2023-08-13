@@ -37,12 +37,12 @@ export const compileClientSideCSS = async (cssTimeStamp) => {
     autoprefixer,
   ]);
 
-  const cssSourcePath = path.join(process.cwd(), './src/docs/client-side/css/index.css');
+  const cssSourcePath = path.join(process.cwd(), 'fa/src/docs/client-side/css/index.css');
   const css = fs.readFileSync(cssSourcePath, 'utf-8');
   const cssRes = await postcssHandler.process(css, {
     from: cssSourcePath
   });
 
-  const cssTargetPath = path.join(process.cwd(), `./docs/css/styles.${ cssTimeStamp }.css`);
+  const cssTargetPath = path.join(process.cwd(), `fa/docs/css/styles.${ cssTimeStamp }.css`);
   fs.writeFileSync(cssTargetPath, cssRes.css, 'utf8');
 };

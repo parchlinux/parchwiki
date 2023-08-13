@@ -18,7 +18,7 @@ export const loadConfig = (configPath) => {
 
   return json;
 };
-const DATA_FOLDER = path.join(process.cwd(), './src/docs/data');
+const DATA_FOLDER = path.join(process.cwd(), 'fa/src/docs/data');
 export const mainConfig = loadConfig(path.join(DATA_FOLDER, './config.json'));
 const renderPrevNext = (pagesList, currentPage, pagesConfig) => {
   if(!pagesList || !currentPage) return '';

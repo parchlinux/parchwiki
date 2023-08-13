@@ -18,7 +18,7 @@ export const updateReadmeDocs = (websiteUrl, rootPath, sideMenuMap, pagesConfig)
   const DOCS_START = '## Documentation 🔖';
   const DOCS_END = '------------------------------';
 
-  const readmePath = path.join(process.cwd(), './README.md');
+  const readmePath = path.join(process.cwd(), 'fa/README.md');
   let readme = fs.readFileSync(readmePath, 'utf8');
   if(!readme.includes(DOCS_START)) return;
 

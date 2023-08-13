@@ -19,6 +19,8 @@ export const loadConfig = (configPath) => {
   return json;
 };
 
+export const DATA_FOLDER = path.join(process.cwd(), './src/docs/data');
+const mainConfig = loadConfig(path.join(DATA_FOLDER, './config.json'));
 const renderPrevNext = (pagesList, currentPage, pagesConfig) => {
   if(!pagesList || !currentPage) return '';
   //console.log(sideMenuMap, currentPage, sideMenuMap[currentPage]);
@@ -37,7 +39,7 @@ const renderPrevNext = (pagesList, currentPage, pagesConfig) => {
 
     html += `
 <div class="flex justify-between items-start border border-slate-200 rounded p-4">
-  <a href="/pages/${ prev }.html" title="" class="mr-4 hover:text-blue-500">
+  <a href="${mainConfig["website"]["url"]}/pages/${ prev }.html" title="" class="mr-4 hover:text-blue-500">
     <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24">
     <path stroke="none" d="M0 0h24v24H0z"/>
     <path d="M5 12h14M5 12l6 6m-6-6 6-6"/>
@@ -45,7 +47,7 @@ const renderPrevNext = (pagesList, currentPage, pagesConfig) => {
   </a>
   <div class="flex flex-col items-end justify-center">
     <div class="mb-2 text-sm text-slate-300">Previous</div>
-    <a href="/pages/${ prev }.html" title="" class="hover:text-blue-500">${ title }</a>
+    <a href="${mainConfig["website"]["url"]}/pages/${ prev }.html" title="" class="hover:text-blue-500">${ title }</a>
   </div>
 </div>      
     `;
@@ -61,10 +63,10 @@ const renderPrevNext = (pagesList, currentPage, pagesConfig) => {
   
   <div class="flex flex-col justify-center">
     <div class="mb-2 text-sm text-slate-300">Next</div>
-    <a href="/pages/${ next }.html" title="" class="hover:text-blue-500">${ title }</a>
+    <a href="${mainConfig["website"]["url"]}/pages/${ next }.html" title="" class="hover:text-blue-500">${ title }</a>
   </div>
   
-  <a href="/pages/${ next }.html" title="" class="mr-4 hover:text-blue-500">
+  <a href="${mainConfig["website"]["url"]}/pages/${ next }.html" title="" class="mr-4 hover:text-blue-500">
     <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24">
      <path stroke="none" d="M0 0h24v24H0z"/>
      <path d="M5 12h14m-6 6 6-6m-6-6 6 6"/>

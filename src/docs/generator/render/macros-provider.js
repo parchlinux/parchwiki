@@ -6,6 +6,7 @@ export const setMacros = (html, data) => {
   result = result.replaceAll('{% website-name %}', data.mainConfig.website.name);
   result = result.replaceAll('{% github %}', data.mainConfig.social.github);
   result = result.replaceAll('{% email %}', data.mainConfig.social.email);
+  result = result.replaceAll('{% website-url %}', data.mainConfig.website.url);
 
   return result;
 };

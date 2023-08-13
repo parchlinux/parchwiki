@@ -18,9 +18,8 @@ export const loadConfig = (configPath) => {
 
   return json;
 };
-
-export const DATA_FOLDER = path.join(process.cwd(), './src/docs/data');
-const mainConfig = loadConfig(path.join(DATA_FOLDER, './config.json'));
+const DATA_FOLDER = path.join(process.cwd(), './src/docs/data');
+export const mainConfig = loadConfig(path.join(DATA_FOLDER, './config.json'));
 const renderPrevNext = (pagesList, currentPage, pagesConfig) => {
   if(!pagesList || !currentPage) return '';
   //console.log(sideMenuMap, currentPage, sideMenuMap[currentPage]);

@@ -1,0 +1,27 @@
+{
+  "1-welcome": {
+    "title": "Welcome"
+  },
+  "2-get-srarted": {
+    "title": "get started"
+  },
+  "3-application": {
+    "title": "parch linux application"
+  },
+  "4-pcm": {
+    "title": "parch core manager"
+  },
+  "5-parchlinuxversion": {
+    "title": "parch linux version"
+  },
+  "6-somefixes": {
+    "title": "some fixes"
+  },
+  "7-next": {
+    "title": "parch linux next"
+  },
+  "8-dwm": {
+    "title": "parch linux dwm"
+  }
+  
+}

@@ -13,7 +13,7 @@ export const compileClientSideScripts = (jsTimeStamp) => {
       sourcemap: 'linked', // external
       minify: true,
       target: ['es6'],
-      outfile: `./docs/js/index.${ jsTimeStamp }.js`,
+      outfile: `./docs/fa/js/index.${ jsTimeStamp }.js`,
       loader: {
         '.png': 'text',
         '.svg': 'dataurl',

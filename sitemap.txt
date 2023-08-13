@@ -1,0 +1,17 @@
+https://metantesan.github.io/parchwiki
+https://metantesan.github.io/parchwiki/pages/welcome.html
+https://metantesan.github.io/parchwiki/pages/Get_Started.html
+https://metantesan.github.io/parchwiki/pages/parchapps.html
+https://metantesan.github.io/parchwiki/pages/parchdorood.html
+https://metantesan.github.io/parchwiki/pages/pastore.html
+https://metantesan.github.io/parchwiki/pages/pcm.html
+https://metantesan.github.io/parchwiki/pages/profiles.html
+https://metantesan.github.io/parchwiki/pages/parchversions.html
+https://metantesan.github.io/parchwiki/pages/parchoffline.html
+https://metantesan.github.io/parchwiki/pages/Parchjade.html
+https://metantesan.github.io/parchwiki/pages/next.html
+https://metantesan.github.io/parchwiki/pages/fixes.html
+https://metantesan.github.io/parchwiki/pages/audio_fix.html
+https://metantesan.github.io/parchwiki/pages/next-repo.html
+https://metantesan.github.io/parchwiki/pages/dwm.html
+https://metantesan.github.io/parchwiki/pages/dwm-keys.html

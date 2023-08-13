@@ -1,0 +1,18 @@
+{
+  "name": "parchwiki",
+  "version": "1.0.0",
+  "description": "- [Welcome](./welcome.md) - [Get Started](./Get_Started.md)   - [Parch Linux Applications](./parchapps.md)     - [Pastore](./pastore.md)     - [PCM](./pcm.md)       - [Parch Profiles](./profiles.md)     - [Parch Dorood](./parchdorood.md)   - [Parch Linux versions](./parchversions.md)     - [Parch Linux Offline](./parchoffline.md)     - [Parch Jade](./Parchjade.md)     - [Parch Next](./next.md)       - [Next mirrors](./next-repo.md)   - [some fixes](fixes.md)     - [Audio problem fix](./audio_fix.md)   - [Parch Linux Dwm](./Dwm.md)     - [Dwm keys](./dwm-keys.md)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "docs:website": "http-server ./docs",
+    "docs:build": "node ./src/docs/generator/index.js",
+    "docs:watch": "nodemon ./src/docs/generator/index.js",
+    "docs:install": "node node_modules/markdown-documentation-maker/run/install.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "markdown-documentation-maker": "^1.0.24"
+  }
+}

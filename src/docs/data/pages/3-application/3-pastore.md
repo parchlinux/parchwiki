@@ -1,9 +1,0 @@
-# Pastore
-
-Pastore or Pastor is short for Parch Store.
-This tool is a frontend for Pacman and has ability to manage packages from:
-
-- Flatpak
-- Aur
-
-This program is under heavy development and is not ready to use yet.

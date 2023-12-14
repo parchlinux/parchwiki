@@ -2,15 +2,14 @@
 title: Welcome
 bottom: false
 ---
-# Welcome to the Parch Wiki
+# به ویکی پارچ خوش آمدید
 
-In Parch Wiki you can find information such as:
+در ویکی پارچ می توانید اطلاعاتی از قبیل:
++ دستورالعمل های پس از نصب پارچ لینوکس
++ آموزش ها
++ اطلاعاتی در مورد ابزار های پارچ لینوکس
+و... دریافت نمایید
 
-+ Parch Linux Post-installations guidelines
-+ Tutorials
-+ Information about Parch Linux Tools
-
-### What is Parch Linux ?
-
-Parch Linux is a Linux Distrobution based on Arch.
-Parch is shorten of **Persian Arch**.
+### پارچ چیست ؟
+پارچ یک توزیع لینوکس مبتنی بر آرچ (Arch) است.
+واژه پارچ (Parch) کوتاه شده‌ی "Persian Arch" است .
